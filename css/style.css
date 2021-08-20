@@ -7,16 +7,21 @@
     margin-top: 15px;
 }
 .jumbotron {
-    background-image: url("https://via.placeholder.com/1000");
+    background-image: url("https://i.ibb.co/30b1dYD/caragain.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center top;
     height: 300px;
     border-radius: 10px;
+}
+.container {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
 }
 .jumboHR {
     border: none;
     height: 5px;
-    background-color: black;
+    background-color: #BC19CC;
     margin: 0;
 }
 .mainContainer {
@@ -32,6 +37,27 @@
     width: 220px;
 }
 .addSpace {
-    background-color: aquamarine;
-    height: 1000px
+    border: 1px solid black;
+    height: 1000px;
+}
+.searchThing {
+    background-color: #250858;
+    margin: 0 auto;
+    color: white;
+    height: 150px;
+}
+.carsNavbar {
+    background-color: #250858;
+}
+.geicoAd {
+    background-image: url("https://i.ibb.co/j3gS9vD/20-249986-NET-WEB-Gecko-Trademark-Saving-Money-635x191.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainHeader {
+    margin-top: 30px;
+}
+.twoOptions {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
