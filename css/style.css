@@ -132,7 +132,7 @@
     margin-top: 15px;
 }
 .mainContent {
-    height: 1000px;
+    margin: 0 auto;
 }
 .mainContent .card {
     margin-right: 15px;
@@ -141,6 +141,8 @@
 .addSpace {
     border: 1px solid black;
     height: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
 .searchThing {
     background-color: #250858;
@@ -163,4 +165,36 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+.twoOptions img {
+    width: 340px;
+}
+.card {
+    border-radius: 10px;
+}
+.btn-primary {
+    color: white;
+    background-color: #542380;
+    border: none;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #250858;
+}
+.card-img-top {
+    border-radius: 10px 10px 0px 0px;
+    height: 150px;
+}
+h5 {
+    font-weight: bold;
+    color: #BC19CC;
+    font-size: 16px;
+}
+.searchButton button:hover {
+    background-color: #BC19CC;
+}
+.secondRow {
+    margin-top: 12px;
+}
+.homeCard {
+    box-shadow: 5px 10px 8px rgb(187, 183, 183);
+}
