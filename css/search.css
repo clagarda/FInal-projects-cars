@@ -1,0 +1,83 @@
+.bodycontainer {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.searchcard .card-title {
+  color: #bc19cc;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0px;
+  margin: 5px;
+}
+.searchcard h6 {
+    font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0px;
+  margin: 5px;
+}
+
+.searchcard .card-subtitle {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 0px;
+  margin: 5px;
+
+}
+
+.searchcard .card-body{
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.searchcard .card-text{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0px;
+  margin: 5px;
+}
+
+.searchcard .badge {
+    color: black;
+    border: solid 1px black;
+    font-weight:normal ;
+}
+.searchcard .badge-primary{
+    background-color: #E0F8B1;
+   
+}
+.searchcard .badge-secondary{
+    background-color: #F6E7C2;
+   
+}
+.searchcard .badge-success{
+    background-color: #C0EFF7;
+   
+}
+.searchcard .btn {
+    background-color: #542380;
+    font-size: 12px;
+    border-radius: 10px;
+ margin-top: 0px;
+ width: 150px;
+}
+.searchcard .card-footer {
+    border: none;
+    background-color: white;
+    padding-top: 0px;
+    border-radius: 20px;
+}
+.searchcard {
+    border-radius:  20px;
+    box-shadow: 5px 10px 8px rgb(187, 183, 183);
+}
+
+.searchcard .card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
