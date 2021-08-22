@@ -1,3 +1,105 @@
+
+
+/*Navbar CSS*/
+.carsLogo {
+    max-width: 75px;
+}
+.carsNavbar {
+    background-color: #250858;
+}
+
+.heading h1{
+    text-align: left;
+    margin-left: 25%;
+    margin-top: 8%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+.heading hr{
+    width:73%;
+    border: 1px solid fuchsia;
+    margin-right:30px;
+    margin-left:25%;
+
+}
+
+
+
+/*trade in card css*/
+
+.flexContainer{
+    display:flex;
+    flex-direction: column;
+    width:75%;
+    margin-left: 25%;
+}
+
+.flexContainer .tradeInBox{
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.flexContainer .cards{
+    padding-top: 5%;
+    padding-right: 3%;
+}
+
+.input-group{
+    width:35%;
+}
+
+.tradeInBox .collapse p{
+    font-size: 25px;
+    text-align: center;
+    color: fuchsia;
+}
+.tradeInBox .collapse p2{
+    font-size: 18px;
+    text-align: center;
+}
+.btn-outline-primary {
+    color: fuchsia;
+    background-color: transparent;
+    background-image: none;
+    border-color: fuchsia;
+}
+.btn-outline-primary:hover {
+    color: white;
+    background-color: rgb(173, 7, 173);
+    background-image: none;
+    border-color: rgb(173, 7, 173);
+}
+
+.dropdown{
+    padding-bottom:3%;
+}
+
+/*Card CSS*/
+.cards h1{
+    font-family: Roboto;
+    font-weight: bolder;
+}
+.cards hr{
+    width:100%;
+    border: 1px solid fuchsia;
+    margin-right:0;
+
+}
+
+.ad .banner { 
+    float: left; 
+    width: 160px; 
+    height: 700px;
+    border : 1px solid black;
+    margin-left: 8%;
+ }
+
+ .ad .banner h1{
+     font-size: 18px;
+     text-align:center;
+     font-weight:lighter;
+     font-family: Roboto;
+ }
 .carsLogo {
     max-width: 75px;
 }
@@ -30,7 +132,7 @@
     margin-top: 15px;
 }
 .mainContent {
-    height: 1000px;
+    margin: 0 auto;
 }
 .mainContent .card {
     margin-right: 15px;
@@ -39,6 +141,8 @@
 .addSpace {
     border: 1px solid black;
     height: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
 .searchThing {
     background-color: #250858;
@@ -60,4 +164,37 @@
 .twoOptions {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.twoOptions img {
+    width: 340px;
+}
+.card {
+    border-radius: 10px;
+}
+.btn-primary {
+    color: white;
+    background-color: #542380;
+    border: none;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #250858;
+}
+.card-img-top {
+    border-radius: 10px 10px 0px 0px;
+    height: 150px;
+}
+h5 {
+    font-weight: bold;
+    color: #BC19CC;
+    font-size: 16px;
+}
+.searchButton button:hover {
+    background-color: #BC19CC;
+}
+.secondRow {
+    margin-top: 12px;
+}
+.homeCard {
+    box-shadow: 5px 10px 8px rgb(187, 183, 183);
 }
