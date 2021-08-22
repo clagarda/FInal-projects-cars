@@ -81,3 +81,19 @@
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.footer {
+  background-color:#250858 ;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.footertext {
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.footerimage{
+  width: 150px;
+}
+.footerimagelogo {
+  width: 100px;
+}
